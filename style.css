@@ -24,7 +24,7 @@ input,textarea
     border-radius: 20px;
     border: none;
     width:300px; 
-    background-color: rgb(235, 222, 232);
+    background-color: rgb(86, 60, 180);
 }
 input,textarea:focus
 {
@@ -40,10 +40,11 @@ input,textarea:focus
 }
 button
 {
-    background-color: rgb(235, 222, 232);
+    background-color: rgb(86, 60, 180);
     color:#000; 
     border: none;
     width:150px; 
+    color:#fff; 
     
 }
 input[type="file"] {
