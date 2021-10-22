@@ -1,0 +1,73 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+     font-family: "Cedarville Cursive";
+}
+
+form 
+{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+align-items: center;
+justify-content: center;
+gap:3px; 
+}
+h1
+{
+    text-align: center;
+}
+input,textarea
+{
+    border-radius: 20px;
+    border: none;
+    width:300px; 
+    background-color: rgb(235, 222, 232);
+}
+input,textarea:focus
+{
+    outline: none;
+}
+.group
+{
+
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+button
+{
+    background-color: rgb(235, 222, 232);
+    color:#000; 
+    border: none;
+    width:150px; 
+    
+}
+input[type="file"] {
+    display: none;
+}
+.img
+{
+     border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.card 
+{
+    /* background-color: darkcyan; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* color:#fff; */
+}
+img
+{
+    width:20%; 
+}
+p{
+    font-size: 20px ;
+}
